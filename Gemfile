@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rubocop", require: false
+gem 'rubocop', require: false
 
-group :development, :test do 
-    gem "rspec"
+group :development, :test do
+  gem 'rspec'
 end
 
 # gem "rails"
